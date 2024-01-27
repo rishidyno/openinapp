@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">Openinapp</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_links">Links</string>
+    <string name="title_courses">Courses</string>
+    <string name="title_campaigns">Campaigns</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="view_analytics">View Analytics</string>
+    <string name="view_all_links">View all Links</string>
+    <string name="talk_with_us">Talk with us</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
 </resources>

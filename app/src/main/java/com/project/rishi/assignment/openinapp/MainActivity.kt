@@ -1,6 +1,8 @@
 package com.project.rishi.assignment.openinapp
 
 import android.os.Bundle
+import android.view.Window
+import android.view.WindowManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -22,14 +24,17 @@ class MainActivity : AppCompatActivity() {
         val navView: BottomNavigationView = binding.navView
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        val appBarConfiguration = AppBarConfiguration(
-            setOf(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications
-            )
-        )
-        setupActionBarWithNavController(navController, appBarConfiguration)
+//        val appBarConfiguration = AppBarConfiguration(
+//            setOf(
+//                R.id.navigation_links, R.id.navigation_courses, R.id.navigation_campaigns,R.id.navigation_profile
+//            )
+//        )
+
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);
+//        window.setFlags(
+//            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+//            WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         navView.setupWithNavController(navController)
     }
 }
